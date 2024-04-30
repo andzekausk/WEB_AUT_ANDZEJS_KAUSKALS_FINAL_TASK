@@ -42,5 +42,8 @@ export class HomePage extends BasePage{
     static get submitButton(){
         return cy.get('button#submit');
     }
+    static getRow(txt){
+        return cy.get('[class=table-responsive]').contains(txt).parent();
+    }
   }
   
