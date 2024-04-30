@@ -36,5 +36,11 @@ export class HomePage extends BasePage{
     static get cityField(){
         return cy.get('div#city');
     }
+    static get uploadPictureButton(){
+        return cy.get('input#uploadPicture');
+    }
+    static get submitButton(){
+        return cy.get('button#submit');
+    }
   }
   

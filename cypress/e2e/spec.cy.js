@@ -19,14 +19,13 @@ describe('Demoqa scenario', () => {
     // e. Set Hobbies to Music.
     HomePage.musicCheckbox.click({force: true});
     // f. Upload an image of your choice.
-
+    HomePage.uploadPictureButton.selectFile("cypress/files/man.jpg");
     // g. Set State to NCR.
     HomePage.stateField.type('n{enter}');
     // h. Set City to Delhi.
     HomePage.cityField.type('d{enter}');
-
     // i. Click Submit.
-
+    HomePage.submitButton.click();
     // j. Validate that each Labeled row contains the correct information
   })
 })
