@@ -24,5 +24,11 @@ export class HomePage extends BasePage{
     static get DateOfBirthInputField(){
         return cy.get('input#dateOfBirthInput');
     }
+    static get subjectsContainerField(){
+        return cy.get('div#subjectsContainer');
+    }
+    static get musicCheckbox(){
+        return cy.get('input#hobbies-checkbox-3');
+    }
   }
   
