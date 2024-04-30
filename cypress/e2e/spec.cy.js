@@ -13,5 +13,7 @@ describe('Demoqa scenario', () => {
     HomePage.userNumberField.type("21234567");
     HomePage.currentAddressField.type("Grove street");     
     // c. Set the - Date of Birth - with Calendar widget to - 28th of February, 1930.
+    // HomePage.DateOfBirthInputField.clear();
+    HomePage.DateOfBirthInputField.type('{selectall}28 Feb 1930{enter}');
   })
 })

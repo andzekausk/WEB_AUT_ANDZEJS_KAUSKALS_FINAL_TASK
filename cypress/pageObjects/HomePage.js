@@ -21,5 +21,8 @@ export class HomePage extends BasePage{
     static get currentAddressField(){
         return cy.get('textarea#currentAddress');
     }
+    static get DateOfBirthInputField(){
+        return cy.get('input#dateOfBirthInput');
+    }
   }
   
