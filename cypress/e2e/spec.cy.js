@@ -17,5 +17,6 @@ describe('Demoqa scenario', () => {
     // d. Set Subjects to Economics.
     HomePage.subjectsContainerField.type('ec{enter}');
     // e. Set Hobbies to Music.
+    HomePage.musicCheckbox.click({force: true});
   })
 })
