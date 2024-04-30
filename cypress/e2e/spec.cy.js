@@ -18,5 +18,15 @@ describe('Demoqa scenario', () => {
     HomePage.subjectsContainerField.type('ec{enter}');
     // e. Set Hobbies to Music.
     HomePage.musicCheckbox.click({force: true});
+    // f. Upload an image of your choice.
+
+    // g. Set State to NCR.
+    HomePage.stateField.type('n{enter}');
+    // h. Set City to Delhi.
+    HomePage.cityField.type('d{enter}');
+
+    // i. Click Submit.
+
+    // j. Validate that each Labeled row contains the correct information
   })
 })

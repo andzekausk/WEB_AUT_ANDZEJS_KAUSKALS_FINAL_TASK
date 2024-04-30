@@ -30,5 +30,11 @@ export class HomePage extends BasePage{
     static get musicCheckbox(){
         return cy.get('input#hobbies-checkbox-3');
     }
+    static get stateField(){
+        return cy.get('div#state');
+    }
+    static get cityField(){
+        return cy.get('div#city');
+    }
   }
   
